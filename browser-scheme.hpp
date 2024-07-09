@@ -15,13 +15,11 @@
  You should have received a copy of the GNU General Public License
  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
-
 #pragma once
 
 #include "cef-headers.hpp"
 #include <string>
 #include <fstream>
-
 #if CHROME_VERSION_BUILD < 4638
 #define ENABLE_LOCAL_FILE_URL_SCHEME 1
 #else
